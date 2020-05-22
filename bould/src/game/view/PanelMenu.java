@@ -33,7 +33,7 @@ public class PanelMenu extends JPanel
 		FrameMenu.getInstance().refreshPanel(panel);
 		final double SPACEX = 0.3;
 
-		button[0].setText("JE VEUX JOUER MOI DE L UCAC ICAM!");
+		button[0].setText("JE VEUX JOUER (Groupe 8 X1)");
 		button[0].addActionListener(new ActionListener()
 		{
 

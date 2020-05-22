@@ -34,7 +34,7 @@ public class PanelTop extends JPanel
 	private JButton button;
 	private Background panel;
 	private static String[] tablecolumn =
-	{ "Puesto", "Nombre", "Puntos", "Tiempo", };
+	{ "Étal de marché", "Nom", "Points", "Temps", };
 	private static Object[][] tableshow;
 	private static JTable table = new JTable();
 	private static DefaultTableModel tablemodel;

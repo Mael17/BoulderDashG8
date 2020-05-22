@@ -46,10 +46,10 @@ public class PanelMap extends JPanel
 		try
 		{
 			empty = ImageIO.read(this.getClass().getResource("/res/Element/empty.gif"));
-			dirt = ImageIO.read(this.getClass().getResource("/res/Element/dirt.gif"));
-			boulder = ImageIO.read(this.getClass().getResource("/res/Element/boulder.gif"));
-			steel = ImageIO.read(this.getClass().getResource("/res/Element/steel.gif"));
-			wall = ImageIO.read(this.getClass().getResource("/res/Element/wall.gif"));
+			dirt = ImageIO.read(this.getClass().getResource("/res/Element/dirt.png"));
+			boulder = ImageIO.read(this.getClass().getResource("/res/Element/boulder.png"));
+			steel = ImageIO.read(this.getClass().getResource("/res/Element/steel.png"));
+			wall = ImageIO.read(this.getClass().getResource("/res/Element/wall.png"));
 
 			// magic =
 			// Toolkit.getDefaultToolkit().createImage(this.getClass().getResource("/res/Element/magic.gif"));
@@ -62,7 +62,7 @@ public class PanelMap extends JPanel
 			rockfordup = Toolkit.getDefaultToolkit().createImage(this.getClass().getResource("/res/Element/rockfordup.gif"));
 			rockforddown = Toolkit.getDefaultToolkit().createImage(this.getClass().getResource("/res/Element/rockforddown.gif"));
 			exit = Toolkit.getDefaultToolkit().createImage(this.getClass().getResource("/res/Element/exit.gif"));
-			diamond = Toolkit.getDefaultToolkit().createImage(this.getClass().getResource("/res/Element/diamond.gif"));
+			diamond = Toolkit.getDefaultToolkit().createImage(this.getClass().getResource("/res/Element/diamond.png"));
 		}
 		catch (IOException e)
 		{

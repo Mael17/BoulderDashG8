@@ -93,7 +93,7 @@ public class PanelConfig extends JPanel
 
 		topBox = new JComboBox<>(topArray);
 		resolutionBox = new JComboBox<>(resolutionArray);
-		fullscreenBox = new JCheckBox("Pantalla Completa");
+		fullscreenBox = new JCheckBox("Plein écran");
 		levelBox = new JComboBox<>(levelArray);
 		
 		topBox.setSelectedItem(Config.getInstance().getTop());
@@ -147,7 +147,7 @@ public class PanelConfig extends JPanel
 			}
 		});
 
-		button.setText("Guardar");
+		button.setText("sauvegarder");
 		button.addActionListener(new ActionListener()
 		{
 
@@ -173,7 +173,7 @@ public class PanelConfig extends JPanel
 		});
 
 		
-		label = new JLabel("Mostrar x Top");
+		label = new JLabel("Afficher x Haut");
 		label.setForeground(Color.WHITE);
 		Constraint.setup(0, 0, 1, 1, 1, 7, GridBagConstraints.SOUTH, GridBagConstraints.CENTER);
 		panel.add(label, Constraint.get());
@@ -181,7 +181,7 @@ public class PanelConfig extends JPanel
 		Constraint.setup(0, 1, 1, 1, 1, 0.2, GridBagConstraints.CENTER, GridBagConstraints.CENTER);
 		panel.add(topBox, Constraint.get());
 
-		label = new JLabel("Resolucion");
+		label = new JLabel("Résolution");
 		label.setForeground(Color.WHITE);
 		Constraint.setup(0, 2, 1, 1, 1, 0.2, GridBagConstraints.CENTER, GridBagConstraints.CENTER);
 		panel.add(label, Constraint.get());
@@ -189,7 +189,7 @@ public class PanelConfig extends JPanel
 		Constraint.setup(0, 3, 1, 1, 1, 0.2, GridBagConstraints.CENTER, GridBagConstraints.CENTER);
 		panel.add(resolutionBox, Constraint.get());
 
-		label = new JLabel("Nivel Inicial");
+		label = new JLabel("Niveau initial");
 		label.setForeground(Color.WHITE);
 		Constraint.setup(0, 4, 1, 1, 1, 0.2, GridBagConstraints.CENTER, GridBagConstraints.CENTER);
 		panel.add(label, Constraint.get());

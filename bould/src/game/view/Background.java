@@ -20,7 +20,7 @@ public class Background extends JPanel
 	 * 
 	 */
 	private static final long serialVersionUID = -477222138070292249L;
-	private String dirwallpaper = "/res/Menu/wallpaper.png";
+	private String dirwallpaper = "/res/Menu/wallpaper.jpg";
 	private Image wallpaperimg;
 	private Image img;
 	private URL imgUrl;
