@@ -49,7 +49,7 @@ public class FrameMap extends JFrame
 	private FrameMap()
 	{
 		GridBagConstraints c = new GridBagConstraints();
-		setTitle("Boulder Dash");
+		setTitle("Boulder Dash Groupe 8 ");
 		setResizable(false);
 		setSize(800, 600);
 		getContentPane().setBackground(Color.BLACK);

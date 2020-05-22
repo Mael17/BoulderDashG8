@@ -103,7 +103,7 @@ public class FrameMenu extends JFrame
 	private void setupFrameMenu()
 	{
 		setVisible(false);
-		setTitle("Boulder Dash Menu");
+		setTitle("Boulder Dash Menu (Groupe 8)");
 		setResizable(false);
 		setSize(800, 600);
 	}
