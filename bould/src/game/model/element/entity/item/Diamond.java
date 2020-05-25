@@ -5,13 +5,13 @@ import game.model.map.MapElement;
 import game.model.element.ElementTypes;
 
 /**
- * Clase del diamante.
+ * Diamond Class.
  */
 public class Diamond extends Fallable
 {
 
 	/**
-	 * Constructor diamante.
+	 * Diamond Constructor.
 	 * 
 	 * @param pos
 	 */
@@ -23,7 +23,7 @@ public class Diamond extends Fallable
 	}
 
 	/**
-	 * Constructor del diamante con estado inicial.
+	 *Initial State of diamond constructor.
 	 * 
 	 * @param pos
 	 * @param state
@@ -36,7 +36,7 @@ public class Diamond extends Fallable
 	}
 
 	/**
-	 * El diamante es recolectado
+	 * The diamond is collected.
 	 */
 	public void collected()
 	{
@@ -122,10 +122,10 @@ public class Diamond extends Fallable
 		}
 	}
 
-	// METODOS SIMPLES
+	// SIMPLE METHODS
 
 	/**
-	 * Pone los passables de Diamante.
+	 * Puts on the Diamond passables
 	 */
 	private void putPassables()
 	{

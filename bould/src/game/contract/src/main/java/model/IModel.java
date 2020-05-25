@@ -5,7 +5,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 
 /**
- * @author Lucien
+ * @author Leonelle
  * interface used by the model
  */
 public interface IModel {

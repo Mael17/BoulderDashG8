@@ -1,7 +1,7 @@
 package game.model;
 
 /**
- * Este enum indica la direccion de un actor controlable por teclado.
+ * This enum indicates the address of a keyboard controllable actor.
  */
 public enum Direction
 {

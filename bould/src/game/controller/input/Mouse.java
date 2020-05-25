@@ -11,7 +11,7 @@ import game.view.FrameMap;
 
 /**
  * 
- * Acciones del mouse.
+ * Mouse actions.
  *
  */
 public class Mouse extends MouseAdapter

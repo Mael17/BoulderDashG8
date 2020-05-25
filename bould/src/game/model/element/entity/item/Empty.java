@@ -4,13 +4,13 @@ import game.model.element.Position;
 import game.model.element.ElementTypes;
 
 /**
- * Clase que representa una item vacio.
+ * Class that represents an empty item.
  */
 public class Empty extends Item
 {
 
 	/**
-	 * Constructor de vacia.
+	 * Empty Constructor. 
 	 * 
 	 * @param pos
 	 */

@@ -5,14 +5,14 @@ import game.model.element.entity.ListOfEntities;
 import game.model.map.MapElement;
 
 /**
- * Clase para los diamantes y rocas que se pueden caer.
+ * Class for falling diamonds and rocks.
  */
 public abstract class Fallable extends Item
 {
 	protected StatusFallableEnum state;
 
 	/**
-	 * Constructor fallable.
+	 * Fallible Constructor .
 	 * 
 	 * @param pos
 	 * @param collectable
@@ -28,9 +28,9 @@ public abstract class Fallable extends Item
 	}
 
 	/**
-	 * Retorna el estado del fallable.
+	 * Returns the status of the fallible.
 	 * 
-	 * @return el estado del fallable
+	 * @return the state of the fallible.
 	 */
 	public StatusFallableEnum getState()
 	{
@@ -38,7 +38,7 @@ public abstract class Fallable extends Item
 	}
 
 	/**
-	 * Setea el estado del fallable.
+	 * Sets the state of the fallible.
 	 * 
 	 * @param state
 	 */
@@ -65,15 +65,15 @@ public abstract class Fallable extends Item
 	}
 
 	/**
-	 * Cambia el estado dependiendo de las condiciones
-	 * del fallable.
+	 *Change status depending on conditions
+     * of the fallible. 
 	 */
 	public abstract void fall();
 	
 	// METODOS SIMPLES
 	
 	/**
-	 * Devuelve si el fallable esta quieto.
+	 * Returns if the fallible is still.
 	 * @return boolean
 	 */
 	public boolean isIdle()
@@ -82,7 +82,7 @@ public abstract class Fallable extends Item
 	}
 	
 	/**
-	 * Devuelve si el fallable esta quieto.
+	 * Returns if the fallible is still.
 	 * @return boolean
 	 */
 	public boolean isFalling()
@@ -91,7 +91,7 @@ public abstract class Fallable extends Item
 	}
 	
 //	/**
-//	 * Devuelve si el fallable esta deslizandose.
+//	 * Returns if the fallible is sliding.
 //	 * @return boolean
 //	 */
 //	public boolean isSliding()

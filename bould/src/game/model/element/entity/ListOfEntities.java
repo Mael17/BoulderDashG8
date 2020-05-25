@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Lista que contiene las entidades vivas.
+ * List containing living entities.
  */
 public class ListOfEntities
 {
@@ -12,7 +12,7 @@ public class ListOfEntities
 	private static List<Entity> entityList;
 
 	/**
-	 * Constructor que setea la lista en null.
+	 * Builder setting the list to null.
 	 */
 	private ListOfEntities()
 	{
@@ -20,7 +20,7 @@ public class ListOfEntities
 	}
 
 	/**
-	 * Singleton de la lista de entidades.
+	 * Singleton from the entity list. 
 	 * 
 	 * @return singleton
 	 */
@@ -34,7 +34,7 @@ public class ListOfEntities
 	}
 
 	/**
-	 * start inicia la lista con una lista vacia, y lo setea como inicializado.
+	 *  start starts the list with an empty list, and sets it as initialized.
 	 */
 	public static void start()
 	{
@@ -42,9 +42,9 @@ public class ListOfEntities
 	}
 
 	/**
-	 * Devuelve la lista.
-	 * 
-	 * @return Retorna la lista de entidades
+	 *Returns the list.
+     *
+     * @return Returns the list of entities
 	 */
 	public static List<Entity> getList()
 	{

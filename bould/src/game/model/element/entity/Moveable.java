@@ -1,34 +1,34 @@
 package game.model.element.entity;
 
 /**
- * Interface moveable para los elementos que se mueven
- * en todas las direciones.
+ * Moveable interface for moving elements
+ * in all directions.
  */
 public interface Moveable
 {
 
 	/**
-	 * Hace la rotacion de la entidad. Utilizando estados.
+	 * Does the rotation of the entity. Using states.
 	 */
 	public abstract void rotate();
 
 	/**
-	 * Comportamiento para mover la entidad hacia arriba.
+	 * Behavior to move the entity upwards.
 	 */
 	public abstract void makeMoveUp();
 
 	/**
-	 * Comportamiento para mover la entidad hacia abajo.
+	 *  Behavior to move the entity down.
 	 */
 	public abstract void makeMoveDown();
 
 	/**
-	 * Comportamiento para mover la entidad hacia la izquierda.
+	 * Behavior to move the entity to the left.
 	 */
 	public abstract void makeMoveLeft();
 
 	/**
-	 * Comportamiento para mover la entidad hacia la derecha.
+	 * Behavior to move the entity to the right.
 	 */
 	public abstract void makeMoveRight();
 }

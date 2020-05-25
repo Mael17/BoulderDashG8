@@ -7,17 +7,17 @@ import game.view.FrameMap;
 import java.util.Timer;
 
 /**
- * Clase de lanzamiento del juego. Ejecuta el GameThread.
+ * Launch class of the game. Run the GameThread.
  */
 public class LaunchGame
 {
 	private static GameThread task;
 	
 	/**
-	 * Crea un timer y utiliza el nivel almacenado en MapInstance, inicializa a
-	 * Mapinstance, luego si el nivel es valido lo construye. Inicializa el
-	 * Frame del mapa y lo pone en visible. Refresca todo y invoca al hilo del
-	 * juego con el timer.
+	 *Create a timer and use the level stored in MapInstance, initialize to
+     *Mapinstance, then if the level is valid build it. Initialize the
+     * Frame the map and make it visible. Refresh everything and invoke the thread of
+     * play with the timer. 
 	 * 
 	 * @param args
 	 */

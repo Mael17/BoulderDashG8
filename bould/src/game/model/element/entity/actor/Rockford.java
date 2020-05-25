@@ -11,9 +11,9 @@ import game.model.map.MapElement;
 import game.model.map.MapInstance;
 
 /**
- * Esta clase es la que contiene al personaje principal: Rockford Contiene su
- * puntuacion, sus diamantes y si esta empujando o no, ademas de las
- * propiedades de actores
+ * This class is the one that contains the main character: Rockford Contains his
+ * score, your diamonds and if you are pushing or not, in addition to
+ * actor properties
  */
 public class Rockford extends Actor
 {
@@ -24,7 +24,7 @@ public class Rockford extends Actor
 	private static Rockford player;
 
 	/**
-	 * Constructor de Rockford.
+	 * Rockford Constructor  .
 	 */
 	private Rockford()
 	{
@@ -33,7 +33,7 @@ public class Rockford extends Actor
 	}
 
 	/**
-	 * Singleton de Rockford.
+	 * Rockford Singleton.
 	 * 
 	 * @return Rockford
 	 */
@@ -47,7 +47,7 @@ public class Rockford extends Actor
 	}
 
 	/**
-	 * Resetea a Rockford.
+	 * Reset Rockford.
 	 */
 	public void reset()
 	{
@@ -60,9 +60,9 @@ public class Rockford extends Actor
 	}
 	
 	/**
-	 * Retorna el score obtenido en el mapa actual.
-	 * 
-	 * @return score obtenido en el mapa actual
+	 * Returns the score obtained on the current map.
+     *
+     * @return score obtained on the current map
 	 */
 	public Integer getScore()
 	{
@@ -70,9 +70,9 @@ public class Rockford extends Actor
 	}
 
 	/**
-	 * Retorna los diamantes obtenidos en el mapa actual.
-	 * 
-	 * @return diamantes obtenidos en el mapa actual
+	 * Returns the diamonds obtained on the current map.
+     *
+     * @return diamonds obtained on the current map
 	 */
 	public Integer getDiamonds()
 	{
@@ -80,9 +80,9 @@ public class Rockford extends Actor
 	}
 
 	/**
-	 * Retorna las vidas del jugador.
-	 * 
-	 * @return las vidas del jugador
+	 * Returns the lives of the player.
+     *
+     * @return the lives of the player
 	 */
 	public Integer getLives()
 	{
@@ -90,9 +90,9 @@ public class Rockford extends Actor
 	}
 
 	/**
-	 * Retorna si Rockford esta empujando algo.
-	 * 
-	 * @return si Rockford esta empujando algo
+ 	 * Returns if Rockford is pushing something.
+     *
+     * @return if Rockford is pushing something
 	 */
 	public boolean isPushing()
 	{
@@ -110,7 +110,7 @@ public class Rockford extends Actor
 	}
 	
 	/**
-	 * Rockfrod muere y explota.
+	 * Rockford dies and explodes.
 	 */
 	private void dying()
 	{
@@ -121,10 +121,10 @@ public class Rockford extends Actor
 	}
 
 	/**
-	 * Remueve la tierra del juego.
+	 * Remove the land from the game.
 	 * 
 	 * @param dirt:
-	 *            Bloque de tierra
+	 *            Earth block
 	 */
 	public void dig(Dirt dirt)
 	{
@@ -139,7 +139,7 @@ public class Rockford extends Actor
 	}
 	
 	/**
-	 * Rockfrod cava.
+	 * Rockford cava.
 	 */
 	private void digging(Dirt dirt)
 	{
@@ -148,7 +148,7 @@ public class Rockford extends Actor
 	}
 	
 	/**
-	 * Rockford camina.
+	 * Rockford walks.
 	 */
 	private void walking()
 	{
@@ -156,10 +156,10 @@ public class Rockford extends Actor
 	}
 
 	/**
-	 * Si es un diamante, lo recolecta.
+	 * If it is a diamond, collect it.
 	 * 
 	 * @param diamond:
-	 *            Bloque de diamante
+	 *                Diamond block
 	 */
 	public void collect(Diamond diamond)
 	{
@@ -170,9 +170,9 @@ public class Rockford extends Actor
 	}
 
 	/**
-	 * Se occupa de mover a Rockford en la matriz, tambien verifica si la celda
-	 * destino es solida para moverse. Rockford cava automaticamente la tierra.
-	 * 
+	 * It deals with moving Rockford into the matrix, it also checks if the cell
+     * destination is solid to move. Rockford automatically digs the ground.
+     *
 	 */
 	public boolean isInExit()
 	{
@@ -298,11 +298,11 @@ public class Rockford extends Actor
 	}
 
 	/**
-	 * Este metodo hace que si esta empujando a una roca, se le ponga el estado
-	 * correspondiente
+	 * This method makes that if you are pushing a rock, the state is put
+     * correspondent
 	 * 
-	 * @param rock:Bloque
-	 *            de roca
+	 * @param rock:Rock
+	 *            block
 	 */
 	public void push(Rock rock)
 	{
@@ -336,10 +336,10 @@ public class Rockford extends Actor
 		
 	}
 	
-	// METODOS SIMPLES
+	// SIMPLE METHODS
 	
 	/**
-	 * Pone los passables de Rockford.
+	 * Puts the Rockford passables.
 	 */
 	private void putPassables()
 	{
@@ -350,7 +350,7 @@ public class Rockford extends Actor
 	}
 	
 	/**
-	 * Recolecta el diamante.
+	 * Collect the diamond.
 	 */
 	private void collecting(Diamond diamond)
 	{
@@ -368,7 +368,7 @@ public class Rockford extends Actor
 	}
 
 	/**
-	 * Decrementa una vida de rockford.
+	 * Decrease a rockford life.
 	 */
 	private void decrementLives()
 	{
@@ -380,7 +380,7 @@ public class Rockford extends Actor
 	}
 	
 	/**
-	 * Guarda el score, resetea el score y diamantes de rockford.
+	 *  Save the score, reset the score and rockford diamonds.
 	 */
 	private void saveScore()
 	{
@@ -390,7 +390,7 @@ public class Rockford extends Actor
 	}
 	
 	/**
-	 * Guarda el score y lo suma, resetea el score y diamantes de rockford.
+	 *  Save the score and add it, reset the score and rockford diamonds.
 	 */
 	private void addScore()
 	{
@@ -402,7 +402,7 @@ public class Rockford extends Actor
 	/**
 	 * 
 	 * @param door
-	 * @return si rockford esta en la salida
+	 * @return if rockford is at the exit
 	 */
 	private boolean playerInExit(Exit door)
 	{
@@ -410,7 +410,7 @@ public class Rockford extends Actor
 	}
 	
 	/**
-	 * Empuja la roca a la derecha.
+	 * Push the rock to the right.
 	 * @param rock
 	 */
 	private void pushingright(Rock rock)
@@ -423,7 +423,7 @@ public class Rockford extends Actor
 	}
 	
 	/**
-	 * Empuja la roca a la izquierda.
+	 * Push the rock to the left.
 	 * @param rock
 	 */
 	private void pushingleft(Rock rock)
@@ -437,7 +437,7 @@ public class Rockford extends Actor
 	
 	/**
 	 * 
-	 * @return si el item derecho es un moveable
+	 * @return if the right item is a moveable
 	 */
 	private boolean itemRightMoveable()
 	{
@@ -453,7 +453,7 @@ public class Rockford extends Actor
 	
 	/**
 	 * 
-	 * @return si el item izquierdo es un moveable
+	 * @return if the left item is a moveable
 	 */
 	private boolean itemLeftMoveable()
 	{

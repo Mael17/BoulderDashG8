@@ -7,8 +7,8 @@ import game.model.map.MapChar;
 import java.util.Scanner;
 
 /**
- * Hace el lanzamiento del juego sin interface grafica. Util para debugear.
- * Funciona por turnos y con el teclado y la consola.
+ * Launches the game without a graphic interface. Useful for debuting.
+ * It works in turns and with the keyboard and the console.
  */
 public class Console
 {
@@ -40,7 +40,7 @@ public class Console
 	}
 
 	/**
-	 * Escribe en consola la informacion.
+	 * Write the information in console.
 	 */
 	private static void writeInfoInConsole()
 	{
@@ -49,12 +49,12 @@ public class Console
 	}
 
 	/**
-	 * Hace el turno.
+	 * It is the turn.
 	 * @param in
 	 * @param quit
 	 * @param player
-	 * @return si el jugador quito
-	 */
+	 * @return if the player removed 
+	 */ 
 	private static boolean doTurn(Scanner in, boolean quit, Rockford player)
 	{
 		quit = pressKeyToMove(in, quit, player);
@@ -68,11 +68,11 @@ public class Console
 	}
 
 	/**
-	 * Presionar tecla para hacer algo.
+	 * Press key to do something.
 	 * @param in
 	 * @param quit
 	 * @param player
-	 * @return si el jugador apreto la tecla quitar
+	 * @return if the player hit the remove key
 	 */
 	private static boolean pressKeyToMove(Scanner in, boolean quit, Rockford player)
 	{
@@ -103,7 +103,7 @@ public class Console
 	}
 
 	/**
-	 * Refresava el mapa y lo imprime.
+	 * Refresh the map and print it.
 	 */
 	private static void refreshMapAndPrint()
 	{
@@ -112,7 +112,7 @@ public class Console
 	}
 
 	/**
-	 * Setea el nivel inicial.
+	 * Set the initial level.
 	 * @param STARTLEVEL
 	 */
 	private static void startMapAndSetLevel(final int STARTLEVEL)

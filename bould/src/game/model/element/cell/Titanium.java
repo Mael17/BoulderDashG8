@@ -4,13 +4,13 @@ import game.model.element.Position;
 import game.model.element.ElementTypes;
 
 /**
- * Clase que representa el titanio.
+ * Class representing titanium.
  */
 public class Titanium extends Cell
 {
 
 	/**
-	 * Constructor del titanio.
+	 * Titanium Constructor.
 	 * 
 	 * @param pos
 	 */

@@ -1,17 +1,17 @@
 package game.model.element;
 
 /**
- * Este enum contiene los caracteres de identificacion de cada elemento para la
- * representacion en la consola de todas los elementos del juego.
+ * This enum contains the identification characters of each element for the
+ * representation in the console of all the elements of the game.
  * <p>
- * Rockford (d,b,u,n animaciones)<br>
- * R, d, b, u, n,<br>
- * Enemies (F: firefly, B: butterfly)<br>
+ * Rockford (d, b, u, n animations) <br>
+ * R, d, b, u, n, <br>
+ * Enemies (F: firefly, B: butterfly) <br>
  * F, B, <br>
- * Cells (E,e salida cerrada y abierta)<br>
+ * Cells (E, e closed and open exit) <br>
  * D, T, W, w, E, e, <br>
- * Items (O: rocas, X: diamante, A: amoeba, _: vacia)<br>
- * O, X, A, C, <br> 
+ * Items (O: rocks, X: diamond, A: amoeba, _: empty) <br>
+ * O, X, A, C, <br>
  */
 public enum ElementTypes
 {

@@ -4,13 +4,13 @@ import game.model.element.Position;
 import game.model.element.ElementTypes;
 
 /**
- * Clase de la Luciernega. Hace una rotacion horaria.
+ * Firefly Class. It does an hourly rotation.
  */
 public class Firefly extends Enemy
 {
 
 	/**
-	 * Constructor de la Luciernega.
+	 * Firefly constructor .
 	 * 
 	 * @param pos
 	 */

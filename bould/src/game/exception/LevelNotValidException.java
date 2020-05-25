@@ -1,7 +1,7 @@
 package game.exception;
 
 /**
- * Tira una excepcion si el nivel no existe.
+ * Throw an exception if the level does not exist.
  *
  */
 public class LevelNotValidException extends Exception

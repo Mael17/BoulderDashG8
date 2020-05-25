@@ -1,9 +1,9 @@
 package game.model.element;
 
 /**
- * Esta clase tiene las coordenadas x e y de un objeto determinado Ademas puede
- * devolver las posiciones de sus alrededores y hacer incrementos/decrementos
- * para simular movimiento.
+ *This class has the x and y coordinates of a certain object.
+ * return the surrounding positions and make increments / decrements
+ * to simulate movement.
  */
 public class Position
 {
@@ -11,7 +11,7 @@ public class Position
 	private Integer Y;
 
 	/**
-	 * Constructor posicion.
+	 * Constructor position.
 	 * 
 	 * @param x
 	 * @param y
@@ -24,7 +24,7 @@ public class Position
 	}
 
 	/**
-	 * Devuelve coorenada X.
+	 * Returns coordinate X.
 	 * 
 	 * @return posx
 	 */
@@ -34,7 +34,7 @@ public class Position
 	}
 
 	/**
-	 * Devuelve coorenada Y.
+	 * Returns coordinate Y.
 	 * 
 	 * @return posy
 	 */
@@ -44,7 +44,7 @@ public class Position
 	}
 
 	/**
-	 * Setea las posiciones X y Y.
+	 * Set the positions X y Y.
 	 * 
 	 * @param posX
 	 * @param posY
@@ -56,15 +56,15 @@ public class Position
 	}
 
 	/**
-	 * Incrementa Y, utilizado para bajar en el mapa.
-	 */
+	 * Increment Y, used to scroll down the map.
+     */
 	public void goDown()
 	{
 		this.Y++;
 	}
 
 	/**
-	 * Decrementa Y, utilizado para subir en el mapa.
+	 *Decrements Y, used to move up the map. 
 	 */
 	public void goUp()
 	{
@@ -72,7 +72,7 @@ public class Position
 	}
 
 	/**
-	 * Decrementa X, utilizado para mover a la izquierda en el mapa.
+	 * Decrements X, used to move left on the map.
 	 */
 	public void goLeft()
 	{
@@ -80,7 +80,8 @@ public class Position
 	}
 
 	/**
-	 * Incrementa X, utilizado para mover a la derecha en el mapa.
+	 * 
+	 * Increase X, used to move right on the map.
 	 */
 	public void goRight()
 	{
@@ -88,9 +89,9 @@ public class Position
 	}
 
 	/**
-	 * Devuelve que posicion esta a abajo de la posicion actual
+	 * Returns what position is below the current position 
 	 * 
-	 * @return la coordenada y abajo del objeto
+	 * @return the y-coordinate of the object
 	 */
 	public Integer checkDown()
 	{
@@ -99,9 +100,9 @@ public class Position
 	}
 
 	/**
-	 * Devuelve que posicion esta arriba de la posicion actual
-	 * 
-	 * @return la coordenada y arriba del objeto
+	 * Returns which position is above the current position
+     *
+     * @return the coordinate and above the object
 	 */
 	public Integer checkUp()
 	{
@@ -109,9 +110,10 @@ public class Position
 	}
 
 	/**
-	 * Devuelve que posicion esta a la izquierda de la posicion actual
-	 * 
-	 * @return la coordenada x a la izquierda del objeto
+	 * Returns which position is to the left of the current position
+     *
+     * @return the x coordinate to the left of the object
+     *
 	 */
 	public Integer checkLeft()
 	{
@@ -119,10 +121,11 @@ public class Position
 	}
 
 	/**
-	 * Devuelve que posicion esta a la derecha de la posicion actual
-	 * 
-	 * @return la coordenada x a la derecha del objeto
-	 */
+	 * Returns which position is to the right of the current position
+     *
+     * @return the x coordinate to the right of the object
+     */
+	
 	public Integer checkRight()
 	{
 		return this.X + 1;

@@ -6,9 +6,9 @@ import game.model.element.entity.ListOfEntities;
 import game.model.map.MapElement;
 
 /**
- * Esta es la clase de todos los items, que son objetos no-enemigos que se
- * mueven Contienen una posicion heredada de entity, un Spritechar que
- * representa al item, y booleanos de estados.
+ * This is the class of all items, which are non-enemy objects that are
+ * move They contain a position inherited from entity, a Spritechar that
+ * represents the item, and state booleans.
  *
  */
 public abstract class Item extends Entity
@@ -19,7 +19,7 @@ public abstract class Item extends Entity
 	private boolean rounded;
 
 	/**
-	 * Constructor de un item.
+	 * Item Constructor.
 	 * 
 	 * @param pos
 	 * @param collectable
@@ -35,9 +35,9 @@ public abstract class Item extends Entity
 	}
 
 	/**
-	 * Devuelve si es collectable el objeto.
-	 * 
-	 * @return si es collectable el objeto
+	 * Returns whether the object is collectable.
+     *
+     * @return if the object is collectable
 	 */
 	public boolean isCollectable()
 	{
@@ -45,9 +45,9 @@ public abstract class Item extends Entity
 	}
 
 	/**
-	 * Devuelve si se puede desplazar el objeto.
-	 * 
-	 * @return si se puede desplazar el objeto
+     * Returns whether the object can be moved.
+     *
+     * @return if the object can be moved
 	 */
 	public boolean isMoveable()
 	{
@@ -55,9 +55,9 @@ public abstract class Item extends Entity
 	}
 
 	/**
-	 * Retorna si el objeto es redondo. Si un objeto puede deslizar.
-	 * 
-	 * @return si el objeto es redondo
+	 * Returns if the object is round. If an object can slide.
+     *
+     * @return if the object is round
 	 */
 	public boolean isRounded()
 	{

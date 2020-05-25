@@ -1,8 +1,8 @@
 package game.model.element;
 
 /**
- * Elemento del juego. Celda, item o actor.
- * Tiene posicion y un caracter de identificacion.
+ * Game element. Cell, item or actor.
+ * It has a position and an identification character.
  */
 public class Element
 {
@@ -10,7 +10,7 @@ public class Element
 	private Position pos;
 
 	/**
-	 * Constructor de elementos.
+	 * Element builder.
 	 * 
 	 * @param pos
 	 */
@@ -21,9 +21,9 @@ public class Element
 	}
 
 	/**
-	 * Retorna la representacion del elemento (SpriteChar) de la entidad.
-	 * 
-	 * @return caracter de identificacion
+	 * Returns the representation of the element (SpriteChar) of the entity.
+     *
+     * @return character identification
 	 */
 	public ElementTypes getElementType()
 	{
@@ -31,7 +31,7 @@ public class Element
 	}
 
 	/**
-	 * Setea la representacion del elemento (SpriteChar) de la entidad.
+	 * Sets the representation of the element (SpriteChar) of the entity.
 	 * 
 	 * @param spritechar
 	 */
@@ -41,9 +41,9 @@ public class Element
 	}
 
 	/**
-	 * Devuelve el objeto posicion.
-	 * 
-	 * @return objeto posicion, (x,y)
+	 * Returns the position object.
+     *
+     * @return object position,(x,y)
 	 */
 	public Position getPosition()
 	{
@@ -51,7 +51,7 @@ public class Element
 	}
 
 	/**
-	 * Setea el objeto posicion. (x,y)
+	 * Sets the position object. (x, y)
 	 * 
 	 * @param pos
 	 */
@@ -61,7 +61,7 @@ public class Element
 	}
 	
 	/**
-	 * Hace un comportamiento y borra el elemento.
+	 * It does a behavior and deletes the element.
 	 */
 	public void die()
 	{
@@ -71,9 +71,9 @@ public class Element
 	///////
 	
 	/**
-	 * Devuelve si el item es un diamante.
+	 * Returns if the item is a diamond.
 	 * 
-	 * @return si el item es un diamante
+	 * @return if the item is a diamond
 	 */
 	public boolean isDiamond()
 	{
@@ -88,9 +88,9 @@ public class Element
 	}
 
 	/**
-	 * Devuelve si es una roca.
-	 * 
-	 * @return si es una roca
+	 * Returns if it is a rock.
+     *
+     * @return if it's a rock
 	 */
 	public boolean isRock()
 	{
@@ -105,9 +105,9 @@ public class Element
 	}
 	
 	/**
-	 * Devuelve si es vacio.
-	 * 
-	 * @return si es un bloque vacio
+	 * Returns if empty.
+     *
+     * @return if it is an empty block
 	 */
 	public boolean isEmpty()
 	{
@@ -123,7 +123,7 @@ public class Element
 	
 	/**
 	 * 
-	 * @return si la celda es tierra
+	 * @return if the cell is earth
 	 */
 	public boolean isDirt()
 	{
@@ -139,7 +139,7 @@ public class Element
 
 	/**
 	 * 
-	 * @return si la celda es un muro.
+	 * @return if the cell is a wall. 
 	 */
 	public boolean isWall()
 	{
@@ -155,7 +155,7 @@ public class Element
 	
 	/**
 	 * 
-	 * @return si la celda es titanio
+	 * @return if the cell is titanium 
 	 */
 	public boolean isTitanium()
 	{
@@ -171,7 +171,7 @@ public class Element
 
 	/**
 	 * 
-	 * @return si la celda es la salida.
+	 * @return if the cell is the output.
 	 */
 	public boolean isExit()
 	{
@@ -187,9 +187,9 @@ public class Element
 	}
 	
 	/**
-	 * Determina si esta entidad es un actor.
-	 * 
-	 * @return si esta entidad es un actor
+	 * Determine if this entity is an actor.
+     *
+     * @return if this entity is an actor
 	 */
 	public boolean isActor()
 	{
@@ -204,9 +204,9 @@ public class Element
 	}
 
 	/**
-	 * Determina si esta entidad es Rockford.
-	 * 
-	 * @return si esta entidad es Rockford
+	 * Determine if this entity is Rockford.
+     *
+     * @return if this entity is Rockford
 	 */
 	public boolean isRockford()
 	{
@@ -225,9 +225,9 @@ public class Element
 	}
 
 	/**
-	 * Determina si esta entidad es un Item.
-	 * 
-	 * @return si esta entidad es un Item
+	 * Determine if this entity is an Item.
+     *
+     * @return if this entity is an Item
 	 */
 	public boolean isItem()
 	{

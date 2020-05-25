@@ -9,16 +9,16 @@ import game.model.element.entity.item.StatusFallableEnum;
 import game.model.map.MapElement;
 
 /**
- * Clase que representa el muro y muro magico.
- * El magic timer es el tiempo del muro magico antes
- * de desactivarse.
+ *Class that represents the wall and magic wall.
+ * The magic timer is the time of the magic wall before
+ * to deactivate.
  */
 public class Wall extends Cell
 {
 	private int magicTimer;
 
 	/**
-	 * Constructor de muro.
+	 * Wall Construtor
 	 * 
 	 * @param pos
 	 */
@@ -30,7 +30,7 @@ public class Wall extends Cell
 	}
 
 	/**
-	 * Constructor del muro para muros magicos.
+	 * Constructor of the wall for magic walls.
 	 * 
 	 * @param pos
 	 * @param magicTime
@@ -43,17 +43,17 @@ public class Wall extends Cell
 	}
 
 	/**
-	 * Retorna el tiempo del muro magico.
-	 * 
-	 * @return tiempo del muro magico
-	 */
+	 *Returns the time of the magic wall.
+     *
+     * @return time of the magic wall
+     */ 
 	public int getMagicTimer()
 	{
 		return magicTimer;
 	}
 
 	/**
-	 * Convierte de rocas a diamantes.
+	 * Convert from rocks to diamonds.
 	 * 
 	 * @param stone
 	 */
@@ -74,7 +74,8 @@ public class Wall extends Cell
 	}
 
 	/**
-	 * Convierte de diamantes a rocas.
+	 * 
+	 * Convert from diamonds to rocks.
 	 * 
 	 * @param diamond
 	 */
@@ -99,16 +100,16 @@ public class Wall extends Cell
 	
 	/**
 	 * 
-	 * @param fallableitem
-	 * @return si se puede convertir el fallableitem
-	 */
+	 * @param fallibleitem
+     * @return if the fallableitem can be converted
+     */
 	private boolean canConvert(Fallable fallableitem)
 	{
 		return (fallableitem.getPosition().getY() == this.getPosition().checkUp()) && (fallableitem.getState() == StatusFallableEnum.FALLING) && this.magicTimer > 0;
 	}
 	
 	/**
-	 * Transforma roca a diamante
+	 * Transform rock to diamond
 	 * @param stone
 	 */
 	private void rockToDiamond(Rock stone)
@@ -120,7 +121,7 @@ public class Wall extends Cell
 	}
 	
 	/**
-	 * Transforma diamante a roca
+	 * Transform  diamond to rock.
 	 * @param diamond
 	 */
 	private void diamondToRock(Diamond diamond)

@@ -1,8 +1,8 @@
 package game.model.element.entity.item;
 
 /**
- * Estatus del amoeba.
- * La direcion de expansion.
+ * Amoeba status.
+ * The direction of expansion.
  *
  */
 public enum StatusAmoebaEnum

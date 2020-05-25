@@ -3,7 +3,7 @@ package game.controller;
 import game.view.sound.Sound;
 
 /**
- * Controla el sonido. Accede al sonido de view.
+ * Control the sound. Access the view sound.
  */
 public class PlaySound
 {

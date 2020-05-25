@@ -3,7 +3,7 @@ package model;
 import java.awt.image.BufferedImage;
 
 /**
- * @author Lucien
+ * @author Leonelle
  * Interface used for the map with all the cjaracteristics it will use
  */
 public interface IMap {

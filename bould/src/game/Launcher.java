@@ -3,12 +3,12 @@ package game;
 import game.view.FrameMenu;
 
 /**
- * Ejecucion del programa. Main usado en el jar.
+ * Execution of the program. Main used in the jar.
  */
 public class Launcher
 {
 	/**
-	 * Solo ejecuta el frame menu.
+	 * Just run the frame menu.
 	 * 
 	 * @param args
 	 */

@@ -10,7 +10,7 @@ import game.model.element.entity.item.StatusAmoebaEnum;
 import game.model.map.MapElement;
 import game.model.map.MapInstance;
 /**
- * Clase que representa el Amoeba. Se mueve y se copia a si mismo.
+ *  Class that represents the Amoeba. It moves and copies itself.
  */
 public class Amoeba extends Item implements Moveable
 {
@@ -23,7 +23,7 @@ public class Amoeba extends Item implements Moveable
 	private StatusAmoebaEnum state;
 
 	/**
-	 * Constructor del Amoeba.
+	 * Constructor of Amoeba.
 	 * 
 	 * @param pos
 	 */
@@ -38,7 +38,7 @@ public class Amoeba extends Item implements Moveable
 	}
 	
 	/**
-	 * Constructor del Amoeba.
+	 * Constructor of Amoeba.
 	 * 
 	 * @param pos
 	 */
@@ -53,7 +53,7 @@ public class Amoeba extends Item implements Moveable
 	}
 
 	/**
-	 * Verifica si esta expandiandose.
+	 * Check if it is expanding.
 	 * 
 	 * @return boolean
 	 */
@@ -221,10 +221,10 @@ public class Amoeba extends Item implements Moveable
 		}
 	}
 	
-	// METODOS SIMPLE
+	//  SIMPLE METHODS
 	
 	/**
-	 * Pone los passables de Amoeba.
+	 * Puts the passables of Amoeba.
 	 */
 	private void putPassables()
 	{
@@ -236,7 +236,7 @@ public class Amoeba extends Item implements Moveable
 	}
 	
 	/**
-	 * Verifica si el amoeba se puede expander.
+	 * Check if the amoeba can be expanded.
 	 */
 	private boolean canExpand()
 	{

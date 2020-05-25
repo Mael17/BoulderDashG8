@@ -5,14 +5,14 @@ import game.model.element.Position;
 import game.model.map.MapElement;
 
 /**
- * Esta clase contiene todos los objetos del mapa que no se mueven o caen.
- */
+ *This class contains all objects on the map that do not move or fall.
+ */ 
 public abstract class Cell extends Element
 {
 
 	/**
-	 * Constructor de Celda.
-	 * 
+	 * Constructor from Cell.
+     *
 	 * @param pos
 	 */
 	Cell(Position pos)
@@ -21,7 +21,7 @@ public abstract class Cell extends Element
 	}
 
 	/**
-	 * Hacer un comportamiento y borra una celda.
+	 * Do a behavior and delete a cell.
 	 */
 	public void die()
 	{

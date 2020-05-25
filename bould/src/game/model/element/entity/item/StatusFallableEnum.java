@@ -1,10 +1,10 @@
 package game.model.element.entity.item;
 
 /**
- * Esto indica todos los estados de movimiento de un item <p>
- * Falling: cayendo abajo <bz>
- * slidingright/left: deslizandose <bz>
- * idle: quieto.
+ * This indicates all the movement states of an item <p>
+ * Falling: falling down <bz>
+ * sliding right / left: sliding <bz>
+ * idle: still.
  *
  */
 public enum StatusFallableEnum

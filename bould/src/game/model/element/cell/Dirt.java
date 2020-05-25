@@ -4,14 +4,14 @@ import game.model.element.Position;
 import game.model.element.ElementTypes;
 
 /**
- * Clase de la celda tierra y vacia (si dirty es false).
+ * Class of the cell ground and empty (if dirty is false).
  */
 public class Dirt extends Cell
 {
 	private boolean dirty;
 
 	/**
-	 * Constructor tierra.
+	 * Constructor Earth
 	 * 
 	 * @param pos
 	 */
@@ -23,8 +23,9 @@ public class Dirt extends Cell
 	}
 
 	/**
-	 * Constructor tierra para generar una celda vacia con un argumento dirty
-	 * para sacar la tierra de la celda.
+	 * 
+     * Earth constructor to generate an empty cell with a dirty argument
+     * to remove the soil from the cell.
 	 * 
 	 * @param pos
 	 * @param dirty
@@ -45,7 +46,7 @@ public class Dirt extends Cell
 
 	/**
 	 * 
-	 * @return si hay tierra en la celda
+	 * @return  if there is dirt in the cell 
 	 */
 	public boolean isDirty()
 	{
@@ -53,7 +54,7 @@ public class Dirt extends Cell
 	}
 
 	/**
-	 * Remueve la tierra de la celda.
+	 * Remove the dirt from the cell.
 	 */
 	public void removeDirt()
 	{

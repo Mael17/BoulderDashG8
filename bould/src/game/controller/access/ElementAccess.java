@@ -5,18 +5,18 @@ import game.model.element.entity.Entity;
 import game.model.element.entity.ListOfEntities;
 
 /**
- * Accede a los elementos del modelo.
+ * Access the elements of the model.
  *
  */
 public class ElementAccess
 {
 
 	/**
-	 * Devuele si la entidad esta en la lista de entidades. (si esta viva)
+	 * Return if the entity is in the entity list. (if she is alive)
 	 * 
 	 * @param ent
-	 *            : entidad
-	 * @return true si esta vivo ent
+	 *            : entity
+	 * @return true if he is alive ent
 	 */
 
 	public static boolean entityIsAlive(Entity ent)
@@ -25,7 +25,7 @@ public class ElementAccess
 	}
 
 	/**
-	 * Abre la salida.
+	 *Open the exit.
 	 */
 	public static void openExit()
 	{

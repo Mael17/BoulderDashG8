@@ -3,13 +3,13 @@ package game.controller.access;
 import game.controller.LaunchGame;
 
 /**
- * Accede al juego.
+ * Access the game.
  *
  */
 public class GameAccess
 {
 	/**
-	 * Ejecuta el main de Game para empezar a jugar.
+	 *Run the Game main to start playing.
 	 */
 	public static void launch()
 	{

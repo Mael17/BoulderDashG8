@@ -9,14 +9,14 @@ import game.model.map.MapElement;
 import game.model.map.MapInstance;
 
 /**
- * Esta clase representa a todos los actores.
+ * This class represents all the actors.
  */
 public abstract class Actor extends Entity implements Moveable
 {
 	protected StatusActorEnum state;
 
 	/**
-	 * Constructor de actor.
+	 * Actor Constructor.
 	 * 
 	 * @param pos
 	 */
@@ -28,9 +28,9 @@ public abstract class Actor extends Entity implements Moveable
 	}
 
 	/**
-	 * Retorna el estado del actor.
-	 * 
-	 * @return StatusActorEnum
+	 * Returns the state of the actor.
+     *
+     * @return StatusActorEnum
 	 */
 	public StatusActorEnum getState()
 	{
@@ -38,7 +38,7 @@ public abstract class Actor extends Entity implements Moveable
 	}
 
 	/**
-	 * Setea el estado del actor.
+	 * Sets the actor's status.
 	 * 
 	 * @param stat
 	 */
@@ -48,8 +48,8 @@ public abstract class Actor extends Entity implements Moveable
 	}
 
 	/**
-	 * Explosion, pone celda vacias alrededor del personaje. Explosion cuadrada
-	 * 3x3.
+	 * Explosion, put empty cells around the character. Square blast
+     * 3x3.
 	 */
 	public void explode()
 	{
@@ -65,7 +65,7 @@ public abstract class Actor extends Entity implements Moveable
 	}
 
 	/**
-	 * Utiliza la direccion y cambia el estado para el movimiento.
+	 * Use direction and change state for movement.
 	 * 
 	 * @param direction
 	 */

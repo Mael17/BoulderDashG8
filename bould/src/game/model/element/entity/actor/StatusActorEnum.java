@@ -1,10 +1,11 @@
 package game.model.element.entity.actor;
 
 /**
- * Esto contiene todos los estados que puede tener un actor.<p>
- *  EXPLODING: Explota<br>
- * MOVINGUP,MOVINGDOWN,MOVINGRIGHT,MOVINGLEFT: Movimiento<br>
- * IDLE: Quieto
+ * This contains all the states that an actor can have. <p>
+ * EXPLODING: Explode <br>
+ * MOVINGUP, MOVINGDOWN, MOVINGRIGHT, MOVINGLEFT: Movement <br>
+ * IDLE: Quiet
+
  */
 public enum StatusActorEnum
 {

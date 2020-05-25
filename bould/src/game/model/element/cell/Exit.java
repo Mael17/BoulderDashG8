@@ -6,7 +6,7 @@ import game.model.element.entity.actor.Rockford;
 import game.model.map.MapInstance;
 
 /**
- * Clase de la celda salida
+ *Output cell class
  */
 public class Exit extends Cell
 {
@@ -15,7 +15,7 @@ public class Exit extends Cell
 	private static Exit exit;
 
 	/**
-	 * Constructor de la salida.
+	 *Output constructor.
 	 * 
 	 * @param pos
 	 */
@@ -27,7 +27,7 @@ public class Exit extends Cell
 	}
 
 	/**
-	 * Singleton salida.
+	 * Singleton output.
 	 * 
 	 * @return
 	 */
@@ -41,7 +41,7 @@ public class Exit extends Cell
 	}
 
 	/**
-	 * Resetea la salida con sus valores por defecto.
+	 *  Reset the output to its default values.
 	 */
 	public void close()
 	{
@@ -50,7 +50,7 @@ public class Exit extends Cell
 	}
 
 	/**
-	 * Abre la salida.
+	 * Open the exit.
 	 */
 	public void open()
 	{
@@ -64,7 +64,7 @@ public class Exit extends Cell
 
 	/**
 	 * 
-	 * @return si la salida esta abierta para el jugador
+	 * @return if the exit is open for the player
 	 */
 	public boolean isOpen()
 	{

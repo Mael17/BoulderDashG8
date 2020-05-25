@@ -4,13 +4,13 @@ import game.model.element.Position;
 import game.model.element.ElementTypes;
 
 /**
- * Enemigo Mariposa. Hace la rotacion de manera Horaria.
+ *  Butterfly Enemy. It rotates Hourly.
  */
 public class Butterfly extends Enemy
 {
 
 	/**
-	 * Constructor de la mariposa.
+	 * Butterfly Constructor.
 	 * 
 	 * @param pos
 	 */

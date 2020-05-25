@@ -6,14 +6,14 @@ import game.model.map.MapElement;
 import game.model.map.MapInstance;
 
 /**
- * Clase que representa a los enemigos, los que
- * pueden matar al jugador con proximidad.
+ * Class that represents the enemies, those that
+ * They can kill the player with proximity.
  */
 public abstract class Enemy extends Actor
 {
 
 	/**
-	 * Constructor de los enemigos.
+	 * Enemy Constructor.
 	 * 
 	 * @param pos
 	 */
@@ -125,8 +125,8 @@ public abstract class Enemy extends Actor
 	}
 	
 	/**
-	 * Explosion, pone celda vacias alrededor del enemigo. Explosion cuadrada
-	 * 3x3 que genera diamantes.
+	 * Explosion, put empty cells around the enemy. Square blast
+     * 3x3 that generates diamonds.
 	 */
 	@Override
 	public void explode()
@@ -153,8 +153,8 @@ public abstract class Enemy extends Actor
 	}
 
 	/**
-	 * Verifica si Rockford esta en el alcanze del enemigo. Verifica en su
-	 * cuardrado 3x3.
+	 * Check if Rockford is in range of the enemy. Check your
+     * 3x3 square.
 	 * 
 	 * @return
 	 */

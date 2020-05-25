@@ -7,7 +7,7 @@ import game.model.map.MapInstance;
 
 /**
  * 
- * Acciones del teclado.
+ * Keyboard actions.
  *
  */
 public class Keyboard extends KeyAdapter

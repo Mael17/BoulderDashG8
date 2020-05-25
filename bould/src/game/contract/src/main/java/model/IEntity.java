@@ -1,6 +1,6 @@
 package model;
 /**
- * @author Tristan
+ * @author Leonelle
  * Interface used by the class player but maybe used by the enemy
  * (not the time to figure it out).
  */

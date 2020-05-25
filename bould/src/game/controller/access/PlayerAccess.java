@@ -6,14 +6,14 @@ import game.model.element.entity.actor.Rockford;
 
 /**
  * 
- * Acceso del jugador del modelo.
+ * Model player access.
  *
  */
 public class PlayerAccess
 {
 	/**
-	 * Hace que el jugador se mueva de manera fluida con el teclado. Y actualiza
-	 * el movimiento.
+	 *It makes the player move smoothly with the keyboard. And update
+     * the movement. 
 	 */
 	public static void updateMove()
 	{
@@ -37,7 +37,7 @@ public class PlayerAccess
 	}
 
 	/**
-	 * Resetea a rockford a sus valores iniciales.
+	 * Reset rockford to its initial values.
 	 */
 	public static void resetPlayer()
 	{
@@ -46,7 +46,7 @@ public class PlayerAccess
 
 	/**
 	 * 
-	 * @return devuelve a rockford
+	 * @return returns rockford
 	 */
 	public static Rockford getPlayer()
 	{
@@ -55,7 +55,7 @@ public class PlayerAccess
 
 	/**
 	 *
-	 * @return diamantes de rockford
+	 * @return rockford diamonds
 	 */
 	public static Integer getDiamonds()
 	{
@@ -64,7 +64,7 @@ public class PlayerAccess
 
 	/**
 	 * 
-	 * @return vidas de rockford
+	 * @return rockford lives
 	 */
 	public static Integer getLives()
 	{
@@ -73,7 +73,7 @@ public class PlayerAccess
 
 	/**
 	 * 
-	 * @return score de rockford ganado en el nivel
+	 * @return rockford score won in the level
 	 */
 	public static Integer getScore()
 	{
