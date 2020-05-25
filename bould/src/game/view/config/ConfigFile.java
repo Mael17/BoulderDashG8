@@ -12,7 +12,7 @@ import java.io.OutputStreamWriter;
 import java.net.URISyntaxException;
 
 /**
- * Sirve para cargar y guardar la lista de scorenames en un archivo.
+ * Il est utilisé pour charger et enregistrer la liste des noms de score dans un fichier.
  *
  */
 public class ConfigFile
@@ -41,7 +41,7 @@ public class ConfigFile
 	}
 
 	/**
-	 * Trata de leer el archivo, si no existe lo crea, si existe lo lee.
+	 *Essayez de lire le fichier, s'il n'existe pas, créez-le, s'il existe, lisez-le
 	 * 
 	 * @throws IOException
 	 * @throws ClassNotFoundException
@@ -76,7 +76,7 @@ public class ConfigFile
 	}
 
 	/**
-	 * Lee el archivo y pone los datos de config.
+	 *Lisez le fichier et mettez les données de configuration.
 	 * 
 	 * @throws IOException
 	 * @throws ClassNotFoundException
@@ -106,7 +106,7 @@ public class ConfigFile
 	}
 
 	/**
-	 * Escribe el archivo.
+	 * Écrivez le fichier.
 	 * 
 	 * @throws IOException
 	 * @throws ClassNotFoundException

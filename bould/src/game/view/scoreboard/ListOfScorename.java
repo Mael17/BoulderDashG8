@@ -8,7 +8,7 @@ import java.util.Comparator;
 import java.util.List;
 
 /**
- * Lista que contiene la informacion de cada jugador del top.
+ * Liste contenant les informations de chaque joueur en haut.
  */
 public class ListOfScorename
 {
@@ -16,7 +16,7 @@ public class ListOfScorename
 	private static List<Scorename> scorenamelist;
 
 	/**
-	 * Constructor que setea la lista en null.
+	 * Le générateur définit la liste sur null.
 	 */
 	private ListOfScorename()
 	{
@@ -24,7 +24,7 @@ public class ListOfScorename
 	}
 
 	/**
-	 * Singleton de la lista de scorenames.
+	 * Singleton de la liste des noms de score.
 	 * 
 	 * @return singleton
 	 */
@@ -38,7 +38,7 @@ public class ListOfScorename
 	}
 
 	/**
-	 * start inicia la lista con una lista vacia, y lo setea como inicializado.
+	 * Singleton de la liste des noms de score...
 	 */
 	public void start()
 	{
@@ -46,9 +46,9 @@ public class ListOfScorename
 	}
 
 	/**
-	 * Devuelve la lista.
-	 * 
-	 * @return Retorna la lista de scorenames
+	 *Renvoie la liste.
+*
+* @return Renvoie la liste des noms de score
 	 */
 	public static List<Scorename> getList()
 	{
@@ -56,8 +56,8 @@ public class ListOfScorename
 	}
 
 	/**
-	 * Ordena la lista de participantes, el mayor puntaje y menor tiempo estan
-	 * primeros en la lista.
+	 * Trier la liste des participants, le score le plus élevé et le temps le plus court sont
+* premier sur la liste.
 	 */
 	public static void sortScorename()
 	{
@@ -90,11 +90,11 @@ public class ListOfScorename
 	}
 
 	/**
-	 * Agrega un scorename en la lista y pone los datos de la lista en un
-	 * archivo scoreboard.
-	 * 
-	 * @param scorename
-	 *            : el objeto scorename
+	 * Ajoutez un nom de score dans la liste et placez les données de la liste dans un
+* fichier de tableau de bord.
+*
+* @param scorename
+*: l'objet scorename
 	 */
 	public void addNameTable(Scorename scorename)
 	{
@@ -111,11 +111,9 @@ public class ListOfScorename
 		ListOfScorename.sortScorename();
 	}
 
-	/**
-	 * Remplaza un scorename en la lista y pone los datos de la lista en un
-	 * archivo scoreboard.
+	/** * Remplacez un nom de partition dans la liste et placez les données de la liste dans un fichier de * tableau de bord.
 	 * 
-	 * @param scorename : el objeto scorename
+	 * * @param scorename: l'objet scorename
 	 */
 	public void replaceNameTable(Scorename scorename)
 	{

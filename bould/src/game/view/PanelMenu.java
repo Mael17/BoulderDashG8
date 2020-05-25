@@ -15,7 +15,7 @@ import game.view.config.Config;
 import game.view.sound.Sound;
 
 /**
- * Panel de menu del juego.
+ * Panneau de menu de jeu.
  */
 public class PanelMenu extends JPanel
 {
@@ -26,7 +26,7 @@ public class PanelMenu extends JPanel
 	private static final long serialVersionUID = 1L;
 
 	/**
-	 * Hace panel menu.
+	 *Rend le menu du panneau.
 	 */
 	public static void makeMenu(Background panel, JButton[] button)
 	{

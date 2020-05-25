@@ -12,7 +12,7 @@ import game.controller.access.MapAccess;
 import game.view.FrameMap;
 
 /**
- * Se occupa de levantar las imagenes para el mapa. y dibujar el mapa.
+ * Il s'occupe de rehausser les images de la carte. et dessinez la carte.
  */
 public class PanelMap extends JPanel
 {
@@ -39,7 +39,7 @@ public class PanelMap extends JPanel
 	private Image exit;
 
 	/**
-	 * Lee las imagenes, para los gif animado se usa toolkit.
+	 * Lisez les images, pour le gif animé utilisez la boîte à outils.
 	 */
 	public PanelMap()
 	{
@@ -87,7 +87,7 @@ public class PanelMap extends JPanel
 	}
 
 	/**
-	 * Dibuja una celda
+	 * Dessine une cellule
 	 * 
 	 * @param s
 	 * @param x
@@ -155,7 +155,7 @@ public class PanelMap extends JPanel
 	}
 
 	/**
-	 * Cambia el tamanio de las celdas para multiples resoluciones.
+	 * Modifiez la taille des cellules pour plusieurs résolutions.
 	 */
 	public void cambiarsize()
 	{

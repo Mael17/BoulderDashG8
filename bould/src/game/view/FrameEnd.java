@@ -18,8 +18,8 @@ import game.view.scoreboard.ListOfScorename;
 import game.view.scoreboard.Scorename;
 
 /**
- * Panel que aparece cuando termina el juego. Se encarga de guardar el score del
- * jugador en la tabla.
+ * Panneau qui apparaît à la fin du jeu. Il est chargé de sauvegarder le score du
+  * joueur dans le tableau.
  */
 public class FrameEnd extends JFrame
 {
@@ -60,7 +60,7 @@ public class FrameEnd extends JFrame
 	}
 
 	/**
-	 * Construye el panel.
+	 * Construisez le panneau.
 	 */
 	public void buildPanelEnd()
 	{
@@ -118,10 +118,10 @@ public class FrameEnd extends JFrame
 	}
 
 	/**
-	 * Verifica si el nombre del jugador es valido.
+	 *Vérifiez si le nom du joueur est valide.
 	 * 
 	 * @param name
-	 * @return si el nombre del jugador es valido
+	 * @return si le nom du joueur est valide
 	 */
 	private boolean nameIsValid(String name)
 	{
@@ -136,7 +136,7 @@ public class FrameEnd extends JFrame
 	}
 
 	/**
-	 * Setea el tiempo del jugador.
+	 * si le nom du joueur est valide...
 	 * 
 	 * @param time
 	 */
@@ -146,7 +146,7 @@ public class FrameEnd extends JFrame
 	}
 
 	/**
-	 * Refresca el panelEnd.
+	 * Actualisez le panneau Fin.
 	 */
 	private void refreshPanelEnd()
 	{
@@ -157,7 +157,7 @@ public class FrameEnd extends JFrame
 	}
 
 	/**
-	 * Muestra el frame.
+	 *Montrez le cadre.
 	 * 
 	 * @param args
 	 */

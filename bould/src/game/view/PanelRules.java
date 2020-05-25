@@ -15,7 +15,7 @@ import javax.swing.JPanel;
 import game.view.sound.Sound;
 
 /**
- * Panel de reglas del juego.
+ * Panneau des règles du jeu.
  */
 public class PanelRules extends JPanel
 {
@@ -46,7 +46,7 @@ public class PanelRules extends JPanel
 	}
 
 	/**
-	 * Muestra el panel de reglas.
+	 * Afficher le panneau des règles.
 	 * 
 	 * @param panel
 	 */

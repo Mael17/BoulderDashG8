@@ -24,7 +24,7 @@ import game.view.config.ConfigFile;
 import game.view.sound.Sound;
 
 /**
- * Panel de reglas del juego.
+ * Panneau des règles du jeu.
  */
 public class PanelConfig extends JPanel
 {
@@ -70,7 +70,7 @@ public class PanelConfig extends JPanel
 	}
 
 	/**
-	 * Inicializacion.
+	 * Initialisation..
 	 * 
 	 * @param frame
 	 * @return configpanel
@@ -85,7 +85,7 @@ public class PanelConfig extends JPanel
 	}
 
 	/**
-	 * Valores iniciales de configuracion.
+	 *Valeurs de configuration initiales.
 	 */
 	public static void defaultConfig(FrameMenu frame)
 	{
@@ -105,7 +105,7 @@ public class PanelConfig extends JPanel
 	}
 
 	/**
-	 * Panel de configuracion.
+	 * Panel de configuration.
 	 */
 	public void showConfig(FrameMenu framemenu)
 	{
@@ -205,7 +205,7 @@ public class PanelConfig extends JPanel
 	}
 	
 	/**
-	 * Setea la resolution del frame.
+	 * Définissez la résolution du cadre.
 	 * @param res
 	 */
 	public void setFrameResolution(String res)
@@ -249,8 +249,8 @@ public class PanelConfig extends JPanel
 	}
 
 	/**
-	 * Setea el frame en pantalla completa o en pantalla normal.
-	 * @param isFullscreen
+	 * Réglez le cadre en plein écran ou en écran normal.
+* @param isFullscreen
 	 */
 	public void setFrameFullscreen(boolean isFullscreen)
 	{

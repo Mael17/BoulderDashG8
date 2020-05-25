@@ -21,7 +21,7 @@ import game.view.scoreboard.Scorename;
 import game.view.sound.Sound;
 
 /**
- * Panel de reglas del juego.
+ * Panneau des règles du jeu.
  */
 public class PanelTop extends JPanel
 {
@@ -98,9 +98,9 @@ public class PanelTop extends JPanel
 	}
 
 	/**
-	 * Carga los datos del archivo scoreboard y los pone en una tablemodel para
-	 * monstrar solo x filas.
-	 * 
+	 * Charge les données du fichier du tableau de bord et les place dans un modèle de tableau pour
+* n'affiche que x lignes.
+*
 	 * @param x
 	 * @throws ClassNotFoundException
 	 * @throws FileNotFoundException
@@ -117,7 +117,7 @@ public class PanelTop extends JPanel
 	}
 
 	/**
-	 * Tabla que se monstrara en el menu top.
+	 * Tableau à afficher dans le menu supérieur.
 	 */
 	private void makeTableshow(Integer x)
 	{

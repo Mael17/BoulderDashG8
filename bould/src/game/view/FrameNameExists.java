@@ -15,7 +15,7 @@ import game.view.scoreboard.ListOfScorename;
 import game.view.scoreboard.Scorename;
 
 /**
- * Si el nombre ya existe en la lista de scorenames, este frame aparece
+ * Si le nom existe déjà dans la liste des noms de score, ce cadre apparaît
  *
  */
 public class FrameNameExists extends JFrame
@@ -55,7 +55,7 @@ public class FrameNameExists extends JFrame
 	}
 
 	/**
-	 * Construye el panel.
+	 * Construisez le panneau.
 	 */
 	public void buildPanelNE()
 	{
@@ -104,7 +104,7 @@ public class FrameNameExists extends JFrame
 	}
 
 	/**
-	 * Se muestra si el nombre ya existe en el top.
+	 * Il s'affiche si le nom existe déjà en haut.
 	 * 
 	 * @param score
 	 */

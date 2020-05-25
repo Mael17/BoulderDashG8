@@ -13,7 +13,7 @@ import java.net.URISyntaxException;
 //import java.net.URL;
 
 /**
- * Sirve para cargar y guardar la lista de scorenames en un archivo.
+ * Il est utilisé pour charger et enregistrer la liste des noms de score dans un fichier.
  *
  */
 public class ScoreBoard
@@ -45,8 +45,8 @@ public class ScoreBoard
 	}
 
 	/**
-	 * Trata de leer el archivo, si no existe lo crea, si existe lo lee.
-	 * 
+	 * Essayez de lire le fichier, s'il n'existe pas, créez-le, s'il existe, lisez-le
+*
 	 * @throws IOException
 	 * @throws ClassNotFoundException
 	 */
@@ -69,8 +69,8 @@ public class ScoreBoard
 	}
 
 	/**
-	 * Lee el archivo y pone los datos en una lista de scorenames. tambien ordenada
-	 * la lista.
+	 * Lisez le fichier et mettez les données dans une liste de noms de score. a également ordonné
+* la liste.
 	 * 
 	 * @throws IOException
 	 * @throws ClassNotFoundException
@@ -90,7 +90,7 @@ public class ScoreBoard
 	}
 
 	/**
-	 * Escribe el archivo.
+	* Écrivez le fichier.
 	 * 
 	 * @param scorenamelist
 	 * @throws IOException
@@ -107,7 +107,7 @@ public class ScoreBoard
 	//////////////////
 
 	/**
-	 * Saca los datos de la lista de scorenames.
+	 * Supprimez les données de la liste des noms de score.
 	 * 
 	 * @param output
 	 * @throws IOException
@@ -121,7 +121,7 @@ public class ScoreBoard
 	}
 
 	/**
-	 * Lee el archivo y pone los datos en una lista de scorenames.
+	 *Lisez le fichier et mettez les données dans une liste de noms de score.
 	 * 
 	 * @param endfile
 	 * @param input
@@ -150,7 +150,7 @@ public class ScoreBoard
 	}
 
 	/**
-	 * Trata de encontrar el directorio, sino existe lo crea.
+	 * Essayez de trouver le répertoire, sinon il le crée.
 	 * 
 	 */
 	private void checkIfFolderExists()

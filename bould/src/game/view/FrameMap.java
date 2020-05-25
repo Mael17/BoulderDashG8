@@ -26,7 +26,7 @@ import game.view.graphics.PanelMap;
 import game.view.sound.Sound;
 
 /**
- * Frame del juego, donde aparece el mapa.
+ * Cadre du jeu, où la carte apparaît.
  *
  */
 public class FrameMap extends JFrame
@@ -99,7 +99,7 @@ public class FrameMap extends JFrame
 	}
 
 	/**
-	 * Refresca el mapa grafico. El movimiento del jugador y el panel superior.
+	 * Actualisez la carte graphique. Mouvement du joueur et panneau supérieur.
 	 */
 	public static void refresh()
 	{
@@ -109,8 +109,8 @@ public class FrameMap extends JFrame
 	}
 
 	/**
-	 * Refresca el panel superior, el score, diamantes obtenidos y otras
-	 * informacion del jugador.
+	 *Actualisez le panneau supérieur, la partition, les diamants obtenus et autres
+* informations sur le joueur.
 	 */
 	public static void refreshPaneltop()
 	{
@@ -123,7 +123,7 @@ public class FrameMap extends JFrame
 	}
 
 	/**
-	 * Se usa en el gamethread. Remueve todo los elementos del panel.
+	 *Il est utilisé dans le fil de jeu. Retirez tous les éléments du panneau.
 	 */
 	public static void remove()
 	{
@@ -131,7 +131,7 @@ public class FrameMap extends JFrame
 	}
 
 	/**
-	 * Se usa en el gamethread. Hace dispose del frame.
+	 *Il est utilisé dans le fil de jeu. Fait usage du cadre.
 	 */
 	public static void disposeFrame()
 	{
@@ -139,7 +139,7 @@ public class FrameMap extends JFrame
 	}
 
 	/**
-	 * Inicializa el framemap.
+	 * Il est utilisé dans le fil de jeu. Fait usage du cadre.....
 	 */
 	public static void start()
 	{
@@ -188,7 +188,7 @@ public class FrameMap extends JFrame
 	}
 
 	/**
-	 * Se occupa de poner el framemap en modo fullscreen.
+	 *Il prend soin de mettre le framemap en mode plein écran.
 	 */
 	public static void fullScr()
 	{
@@ -224,7 +224,7 @@ public class FrameMap extends JFrame
 	}
 
 	/**
-	 * Setea el tamanio del panel superior.
+	 * Définissez la taille du panneau supérieur.
 	 * 
 	 * @param size
 	 */
@@ -234,7 +234,7 @@ public class FrameMap extends JFrame
 	}
 
 	/**
-	 * Refresca el numero de nivel cuando hay cambio de nivel.
+	 *Actualise le numéro de niveau en cas de changement de niveau.
 	 */
 	public void refreshLevelLabel()
 	{
@@ -242,7 +242,7 @@ public class FrameMap extends JFrame
 	}
 
 	/**
-	 * Construye el panel superior.
+	 * Construisez le panneau supérieur.
 	 */
 	public static void buildPaneltop()
 	{

@@ -3,7 +3,7 @@ package game.view;
 import java.awt.GridBagConstraints;
 
 /**
- * Se utiliza para setear el constraint del gridbaglayout.
+ * Il est utilisé pour définir la contrainte du gridbaglayout.
  *
  */
 public class Constraint
@@ -11,8 +11,8 @@ public class Constraint
 	private static GridBagConstraints constraint = new GridBagConstraints();
 
 	/**
-	 * Setea la configuracion posicion/visual de un elemento antes de agregarlo
-	 * en el panel.
+	 * Définissez la position / les paramètres visuels d'un élément avant de l'ajouter
+* sur le panneau.
 	 * 
 	 * @param constraint
 	 * @param x
@@ -37,7 +37,7 @@ public class Constraint
 	}
 
 	/**
-	 * Devuelve el constraint.
+	 * Renvoie la contrainte.
 	 * 
 	 * @return constraint
 	 */

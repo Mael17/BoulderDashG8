@@ -11,8 +11,8 @@ import javax.sound.sampled.UnsupportedAudioFileException;
 import javax.swing.JFrame;
 
 /**
- * Generador de sonidos. Levanta los archivos wav y contiene metodos para cada
- * sonido.
+ * Générateur de sons. Soulever des fichiers wav et contenir des méthodes pour chacun
+  * du son.
  */
 public class Sound extends JFrame
 {
@@ -38,7 +38,7 @@ public class Sound extends JFrame
 	}
 
 	/**
-	 * Sonido del boton.
+	 * Son des boutons..
 	 */
 	public static void button()
 	{
@@ -60,7 +60,7 @@ public class Sound extends JFrame
 	}
 
 	/**
-	 * Sonido de colecion de diamante.
+	 * Son des boutons....
 	 */
 	public static void diamond()
 	{
@@ -82,7 +82,7 @@ public class Sound extends JFrame
 	}
 
 	/**
-	 * Sonido cuando se pierde el juego.
+	 * Son lorsque le jeu est perdu.
 	 */
 	public static void lost()
 	{
@@ -104,7 +104,7 @@ public class Sound extends JFrame
 	}
 
 	/**
-	 * Sonido de nuevo juego.
+	 * Bruit d'un nouveau jeu.
 	 */
 	public static void newgame()
 	{
@@ -126,7 +126,7 @@ public class Sound extends JFrame
 	}
 
 	/**
-	 * Sonido de victoria.
+	 * Bruit de victoire.
 	 */
 	public static void won()
 	{
@@ -148,7 +148,7 @@ public class Sound extends JFrame
 	}
 
 	/**
-	 * Sonido de cavar.
+	 * Bruit de creuser.
 	 */
 	public static void dig()
 	{
@@ -170,7 +170,7 @@ public class Sound extends JFrame
 	}
 
 	/**
-	 * Sonido de la explosion.
+	 *Bruit de l'explosion.
 	 */
 	public static void explosion()
 	{
@@ -192,7 +192,7 @@ public class Sound extends JFrame
 	}
 
 	/**
-	 * Sonido de empuje de rocas.
+	 * Rock poussant le son.
 	 */
 	public static void push()
 	{
@@ -214,7 +214,7 @@ public class Sound extends JFrame
 	}
 
 	/**
-	 * Sonido cuando camina rockford.
+	 *Sonne quand Rockford marche.
 	 */
 	public static void step()
 	{

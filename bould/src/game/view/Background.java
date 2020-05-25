@@ -11,7 +11,7 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 
 /**
- * Dibuja la imagen de fondo en el menu.
+ * Dessinez l'image d'arrière-plan dans le menu.
  *
  */
 public class Background extends JPanel
@@ -26,9 +26,9 @@ public class Background extends JPanel
 	private URL imgUrl;
 
 	/**
-	 * Constructor background.
-	 * 
-	 * @param gridBagLayout
+	 * Fond de constructeur.
+*
+* @param gridBagLayout
 	 */
 	public Background(GridBagLayout gridBagLayout)
 	{
@@ -44,7 +44,7 @@ public class Background extends JPanel
 	}
 
 	/**
-	 * Setea la imagen de fondo.
+	 * Definit l'image d'arriere plan.
 	 * 
 	 * @param img
 	 */
@@ -54,7 +54,7 @@ public class Background extends JPanel
 	}
 
 	/**
-	 * Devuelve la imagen de fondo.
+	 * Renvoie l'image d'arrière-plan.
 	 * 
 	 * @param img
 	 */
@@ -64,7 +64,7 @@ public class Background extends JPanel
 	}
 
 	/**
-	 * Setea la imagen de fondo del menu.
+	 * Définir l'image d'arrière-plan du menu.
 	 */
 	public void putBackground(JFrame frame)
 	{
